@@ -1,16 +1,14 @@
 server:
   port: ${PORT:${SERVER_PORT:0}}
 
-spring:  
+spring: 
+  application:
+    name: api-serie
   data:
     mongodb:
       host: localhost
       database: final_serie
       port: 27017
-
-info:
-  application:
-    name: api-serie
 
 eureka:
   healthcheck:
